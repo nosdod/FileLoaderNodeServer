@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2021-10-27T10:19:52.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="LRzY-Y4tHmI5dV6kndAj" version="15.5.9" type="github">
+  <diagram id="YTPLvSeAAADWJWPBMRQL" name="Page-1">
+    <mxGraphModel dx="2942" dy="1162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5JX-g1ji-eP4zQRaCop0-8" value="NodeJS Server" style="whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=right;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="460" y="170" width="270" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="5JX-g1ji-eP4zQRaCop0-5" value="Browser" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;align=right;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="180" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="5JX-g1ji-eP4zQRaCop0-1" value="Rest Endpoint" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="520" y="240" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5JX-g1ji-eP4zQRaCop0-2" value="NodeJS UI" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="180" y="240" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5JX-g1ji-eP4zQRaCop0-3" value="File Upload" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5JX-g1ji-eP4zQRaCop0-2" target="5JX-g1ji-eP4zQRaCop0-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="620" as="sourcePoint" />
+            <mxPoint x="440" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JX-g1ji-eP4zQRaCop0-4" value="File Loader Concept" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5JX-g1ji-eP4zQRaCop0-6" value="UI Server" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="520" y="440" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5JX-g1ji-eP4zQRaCop0-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="5JX-g1ji-eP4zQRaCop0-6" target="5JX-g1ji-eP4zQRaCop0-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgHG_8xQJhW09MRSHRyl-1" value="&lt;h1&gt;Operation&lt;/h1&gt;&lt;p&gt;&lt;ol&gt;&lt;li&gt;User navigates to homepage the browser&lt;/li&gt;&lt;li&gt;NodeJS server returns the homepage&lt;/li&gt;&lt;li&gt;User clicks a button and a native file Open dialog appears.&lt;/li&gt;&lt;li&gt;User selects a file&lt;/li&gt;&lt;li&gt;User Clicks the Upload button&lt;/li&gt;&lt;li&gt;File is uploaded to server&lt;/li&gt;&lt;li&gt;Server saves the uploaded file&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=25;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="640" height="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

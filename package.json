@@ -1,0 +1,24 @@
+{
+  "name": "fileloadernode",
+  "version": "1.0.0",
+  "description": "Loader for a file",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "file",
+    "loader"
+  ],
+  "author": "M Dodson",
+  "license": "ISC",
+  "dependencies": {
+    "express-fileupload": "^1.2.1",
+    "formidable": "^1.2.2",
+    "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
