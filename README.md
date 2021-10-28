@@ -1,5 +1,6 @@
 ** File Loader concept apps
 
+Install the required node modules with 'npm install'
 Run server.js from within Code
 Open a browser at http://localhost:3000/entropy-status to see status response.
 http://localhost:3000/send-file endpoint expects a POST request with a body containg '{ newfile : <filename>}'
